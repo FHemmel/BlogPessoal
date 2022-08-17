@@ -18,7 +18,7 @@ public class Postagem {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	@NotBlank(message = "O atributo titulo é obrigatório!")
 	@Size(min = 5, max = 100, message = "O atributo titulo deve conter no mínimo 05 e no máximo de 100 caracteres!")
